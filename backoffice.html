@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css">
+    <title>Backoffice</title>
+  </head>
+  <body>
+    <header>
+        <div class="text-center overflow-hidden dimension">
+        <img src="https://images.pexels.com/photos/2566581/pexels-photo-2566581.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="working" class="img-fluid">
+    </div>
+    </header>
+    <h1 class="text-center my-5">Area riservata</h1>
+<div class="d-flex justify-content-center my-5">
+    <div class="mx-5">
+    <button class="bg-success">Inserisci i tuoi prodotti</button>
+    </div>
+    <div class="mx-5">
+        <button class="bg-warning">Modifica i tuoi prodotti</button>
+    </div>
+    </div>
+
+<main>
+    <div class="d-flex flex-column justify-content-center mx-5">
+    <div class="input-group mb-3">
+      <label for="name"
+        ><span class="input-group-text"
+          >Inserisci il nome del prodotto</span
+        ></label
+      >
+      <input
+        type="text"
+        class="form-control"
+        placeholder="name"
+        aria-label="name"
+      />
+    </div>
+
+    <div class="input-group mb-3">
+      <label for=""
+        ><span class="input-group-text">Descrizione del prodotto</span></label
+      >
+      <textarea class="form-control" aria-label="With textarea"></textarea>
+    </div>
+
+    <div class="input-group mb-3">
+      <label for=""
+        ><span class="input-group-text">Brand</span></label
+      >
+      <input
+        type="text"
+        class="form-control"
+        placeholder="Brand"
+        aria-label="brand"
+      />
+    </div>
+
+    <div class="input-group mb-3">
+      <label for="price"
+        ><span class="input-group-text">Inserisci il prezzo</span></label
+      >
+      <span class="input-group-text">€</span>
+      <input
+        type="text"
+        class="form-control"
+        aria-label="price"
+      />
+      <span class="input-group-text">.00</span>
+    </div>
+
+    <h5>Carica le tue foto</h5>
+    <div class="input-group  mb-3">
+      <input type="file" class="form-control" id="inputGroupFile02" />
+      <label class="input-group-text" for="inputGroupFile02">Upload</label>
+    </div>
+    
+      <h5>oppure inserisci un URL</h5>
+      <div class="input-group  mb-3"></div>
+        <input type="url" class="form-control" id="Url" />
+        <label class="input-group-text" for="Url"><span>Upload</span></label>
+    </div>
+    </div>
+    </main>
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
